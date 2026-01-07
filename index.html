@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wei Han | Artist</title>
+  <meta name="description" content="Official artist website for Wei Han" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 1px;
+    }
+    h2 {
+      font-weight: 400;
+      color: #b3b3b3;
+      margin-top: 0;
+    }
+    section {
+      margin-bottom: 2.5rem;
+    }
+    a {
+      color: #1db954;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Wei Han</h1>
+      <h2>Independent Music Artist</h2>
+    </header>
+
+    <section>
+      <h3>About</h3>
+      <p>
+        Wei Han is an independent music artist. This page serves as the official artist website
+        for music platforms, verification, and listeners.
+      </p>
+    </section>
+
+    <section>
+      <h3>Music</h3>
+      <p>
+        Spotify artist profile:<br />
+        <a href="https://open.spotify.com/artist/3ps1Cpx75zauRKTXMnxy9L" target="_blank" rel="noopener">
+          https://open.spotify.com/artist/3ps1Cpx75zauRKTXMnxy9L
+        </a>
+      </p>
+
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/artist/3ps1Cpx75zauRKTXMnxy9L"
+        width="100%" height="352" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
+
+      <p style="margin-top:1.5rem;">
+        Latest release: <strong>Kao Yan</strong><br />
+        <a href="https://open.spotify.com/track/3ZPD8B132jXS9mjsCofEWm" target="_blank" rel="noopener">
+          Listen on Spotify
+        </a>
+      </p>
+
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/3ZPD8B132jXS9mjsCofEWm"
+        width="100%" height="152" frameborder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
+    </section>
+
+    <section>
+      <h3>Contact</h3>
+      <p>
+        <a href="mailto:wilhelm.sci9@gmail.com">wilhelm.sci9@gmail.com</a>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Wei Han
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
