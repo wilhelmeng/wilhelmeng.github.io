@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wilhelm Wei Han Eng | Genomics & Bioinformatics</title>
+  <meta name="description" content="Wilhelm Wei Han Eng – Genomics, Bioinformatics, Research & Industry Engagement" />
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #0f0f0f;
+      color: #f5f5f5;
+      line-height: 1.65;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 3rem 1.5rem;
+    }
+    header {
+      margin-bottom: 3rem;
+    }
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.3rem;
+    }
+    h2 {
+      font-weight: 400;
+      color: #b3b3b3;
+      margin-top: 0;
+    }
+    h3 {
+      margin-top: 2.5rem;
+      border-bottom: 1px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    a {
+      color: #1db954;
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 1.2rem; }
+    .badge {
+      display: inline-block;
+      background: #1a1a1a;
+      padding: 0.3rem 0.6rem;
+      border-radius: 6px;
+      margin: 0.2rem 0.2rem 0.2rem 0;
+      font-size: 0.85rem;
+      color: #ccc;
+    }
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 0.9rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Wilhelm Wei Han Eng</h1>
+      <h2>Genomics • Bioinformatics • Research & Industry Engagement</h2>
+      <p>
+        MSc (Research) Candidate, Monash University Malaysia<br/>
+        Former Genomics Executive (7+ years) | ISO9001 | NGS Platforms
+      </p>
+      <p>
+        <a href="mailto:wilhelm.sci9@gmail.com">wilhelm.sci9@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/wilhelm-wei-han-eng-b8533b71" target="_blank">LinkedIn</a> |
+        <a href="https://scholar.google.com/citations?user=0iqdN_sAAAAJ&hl=en" target="_blank">Google Scholar</a>
+      </p>
+    </header>
+
+    <section>
+      <h3>Profile</h3>
+      <p>
+        Hybrid scientific and operational professional with 9+ years of experience supporting life-science
+        research at the interface of academia, industry, and community impact. Strong grounding in genomics
+        and bioinformatics, with a proven ability to translate complex science into operationally sound,
+        partnership-driven outcomes.
+      </p>
+    </section>
+
+    <section>
+      <h3>Expertise</h3>
+      <span class="badge">NGS (Illumina, ONT, PacBio)</span>
+      <span class="badge">Genome Assembly & Variant Calling</span>
+      <span class="badge">Bioinformatics Training</span>
+      <span class="badge">HPC & Workflow Automation</span>
+      <span class="badge">ISO9001 Quality Management</span>
+      <span class="badge">Industry & Academic Partnerships</span>
+    </section>
+
+    <section>
+      <h3>Selected Achievements</h3>
+      <ul>
+        <li>Coordinated purchasing and commissioning of PacBio Sequel IIe (first in Southeast Asia).</li>
+        <li>Led ISO9001 certification for Monash University Malaysia Genomics Facility.</li>
+        <li>Co-Investigator for Ocean Park Conservation Funding (HK$283,624).</li>
+        <li>Co-organized the Wellcome Genome Campus ACSC Overseas Course (2018).</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Research & Publications</h3>
+      <p>
+        Research interests include population genomics, molecular evolution, conservation genomics,
+        and applied bioinformatics.
+      </p>
+      <p>
+        Full publication list available on
+        <a href="https://scholar.google.com/citations?user=0iqdN_sAAAAJ&hl=en" target="_blank">Google Scholar</a>.
+      </p>
+    </section>
+
+    <section>
+      <h3>Community & Leadership</h3>
+      <p>
+        Active member of the Baha’i Community. Serving as a Local Spiritual Assembly (LSA) member
+        for the Subang Jaya cluster, with involvement in community-building, education, and youth
+        development initiatives.
+      </p>
+    </section>
+
+    <section>
+      <h3>Creative Work (Music)</h3>
+      <p>
+        Independent music artist releasing original work under the artist name <strong>Wei Han</strong>.
+      </p>
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/track/3ZPD8B132jXS9mjsCofEWm"
+        width="100%" height="152" frameborder="0"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"></iframe>
+      <p>
+        <a href="https://open.spotify.com/artist/3ps1Cpx75zauRKTXMnxy9L" target="_blank">
+          Spotify Artist Profile
+        </a>
+      </p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Wilhelm Wei Han Eng
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
